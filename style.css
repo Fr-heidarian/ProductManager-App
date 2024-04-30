@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+body {
+  font-family: "Quicksand" !important;
+  background-image: linear-gradient(to right, #b6fbff, #83a4d4);
+}
+table {
+  box-shadow: 0px 0px 16px -3px rgba(0, 0, 0, 0.75);
+}
+table th i {
+  cursor: pointer;
+}
+.spinner-container {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.spinner-border {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
+.spinner-container button {
+  position: absolute;
+  left: calc(50% - 20px);
+  top: calc(50% + 50px);
+}
+.no-events {
+  pointer-events: none;
+}
+#pageSizeSelect {
+  padding: 0.35rem 0.5rem;
+}
+/* Image Section */
+.image-selector {
+  border: dashed 2px #aaaaaa;
+  border-radius: 5px;
+  box-shadow: 0 0 3px #aaaaaa;
+  transition: all 0.2s;
+  margin-bottom: 30px;
+  padding: 30px;
+  font-size: 1.1rem;
+  text-align: center;
+}
+.image-selector:hover {
+  box-shadow: 0 0 8px #aaaaaa;
+  border-color: #888888;
+}
+.image-selector label {
+  text-decoration: underline #000000;
+  cursor: pointer;
+}
+
+#file-input {
+  display: none;
+}
